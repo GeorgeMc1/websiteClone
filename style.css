@@ -1,0 +1,89 @@
+@font-face{font-family:"NVIDIA-NALA";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/NVIDIASans_NALA_W_Lt.woff") format("woff"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/NVIDIASans_NALA_W_Lt.woff2") format("woff2");font-weight:300;font-style:normal}
+*{
+    font-family: NVIDIA-NALA,Arial,Helvetica,Sans-Serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+#nav-bar ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#nav-bar ul li{
+    list-style: none;
+}
+#nav-bar ul li a{
+    color: #666;
+    text-decoration: none;
+}
+#button-menu li{
+    padding: 10px 10px;
+}
+#link-menu li{
+    padding: 4px 17px 4px 5px;
+}
+#icon-menu li{
+    padding: 0 8px 0;
+}
+#logo{
+    width: 135px;
+    height: 44px;
+}
+#sec1{
+    display: flex;
+    justify-content: center;
+}
+#sec2{
+    display: flex;
+    justify-content: center;
+}
+.top-sec{
+    height: 580px;
+    background-color: #eee;
+}
+.slide-heading{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 1000;
+}
+.slide-img{
+    width: 60%;
+    min-width: 550px;
+}
+.top-sec-text{
+    width: calc(40% - 28px);
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+@media(max-width: 1350px){
+    .top-sec{
+        padding: 0 30px;
+    }
+}
+@media(max-width: 1240px){
+    .slide-heading{
+        font-size: 36px;
+    }
+}
+@media(max-width: 1005px){
+    .slide-heading{
+        font-size: 24px;
+    }
+}
