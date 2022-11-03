@@ -11,6 +11,9 @@ body{
     width: 100%;
     background-color: #fff;
 }
+a{
+    text-decoration: none;
+}
 h1{
     margin: 0;
     font-size: 48px;
@@ -20,6 +23,9 @@ h2{
     margin: 0;
     font-size: 36px;
     font-weight: 1000;
+}
+h3{
+    font-size: 18px;
 }
 p{
     margin: 0;
@@ -163,6 +169,20 @@ button:hover{
 }
 .bot-subsec-text{
     margin: 10px 15px 10px;
+}
+#foot1{
+    background-color: black;
+    color: #eee;
+    padding: 60px 0;
+}
+#foot1 h3{
+    font-size: 24px;
+}
+#foot1 a{
+    color: #76b900;
+}
+.foot1-sec{
+    width: calc(100% / 3);
 }
 
 @media(max-width: 1350px){
