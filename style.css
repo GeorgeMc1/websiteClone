@@ -25,6 +25,7 @@ h2{
     font-weight: 1000;
 }
 h3{
+    margin: 0;
     font-size: 18px;
 }
 p{
@@ -154,6 +155,8 @@ button:hover{
     border-radius: 2px;
     box-shadow: 0 0 2px 0 rgb(0, 0, 0, 19%), 0 2px 6px 0 rgb(0, 0, 0, 19%);
     margin: 17px 0 44px;
+    text-decoration: none;
+    color: black;
 }
 .bot-sec-image{
     width: 295px;
@@ -168,6 +171,7 @@ button:hover{
     margin: 15px 15px 0;
 }
 .bot-subsec-text{
+    font-size: 14px;
     margin: 10px 15px 10px;
 }
 #foot1{
@@ -175,14 +179,55 @@ button:hover{
     color: #eee;
     padding: 60px 0;
 }
-#foot1 h3{
-    font-size: 24px;
-}
-#foot1 a{
-    color: #76b900;
-}
 .foot1-sec{
+    display: flex;
+    flex-direction: column;
     width: calc(100% / 3);
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+#foot1-sec-last{
+    padding: 0;
+}
+.foot1-header{
+    font-size: 24px;
+    border-bottom: 1px solid;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+
+}
+.foot1-sec a{
+    color: #76b900;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+#foot1-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#signup-sec{
+    display: flex;
+    align-items: center;
+}
+#signup-sec p{
+    margin: 0 30px;
+    font-size: 18px;
+}
+#follow-sec{
+    display: flex;
+    align-items: center;
+}
+#follow-sec p{
+    font-size: 16px;
+    color: #747474;
+    margin-right: 20px;
+}
+#follow-sec a{
+    margin: 0 10px;
+}
+#follow-sec path{
+    fill: #3a3a3a;
 }
 
 @media(max-width: 1350px){
